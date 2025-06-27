@@ -4,7 +4,7 @@ import time
 from google.cloud import firestore
 
 def website_monitor(event, context):
-    """Triggered by Pub/Sub message"""
+  
     db = firestore.Client()
     pubsub_message = json.loads(event['data'].decode('utf-8'))
     
