@@ -17,6 +17,9 @@ GCP Services Used
 | Firestore
 | Cloud Scheduler
 
+**Flow Summary**
+Cloud Scheduler → Pub/Sub → Cloud Function → Firestore
+
 Deployment
 ```bash
 # Clone repo
