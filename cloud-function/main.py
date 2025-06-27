@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 from google.cloud import firestore
 
 def website_monitor(event, context):
